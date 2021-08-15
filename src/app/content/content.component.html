@@ -1,0 +1,11 @@
+<div class="video">
+  <div class="card border border-light me-5" style="width: 70%; height:80%">
+    <img src="{{respuesta.url}}" style="max-height:70%" >
+    <div class="card-body">
+      <h5 class="card-title">{{respuesta.titulo}}</h5>
+      <p class="card-text">{{respuesta.texto}}</p>
+    </div>
+  </div>
+  <app-detail (resultEvent)="getRespuesta($event)" [datos]="Rep"></app-detail>
+</div>
+
