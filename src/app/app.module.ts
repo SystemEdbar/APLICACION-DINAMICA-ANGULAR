@@ -6,13 +6,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule } from "@angular/forms";
 import { ContentComponent } from './content/content.component';
 import { DetailComponent } from './detail/detail.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ContentComponent,
-    DetailComponent
+    DetailComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
