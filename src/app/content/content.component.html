@@ -1,11 +1,41 @@
-<div class="video">
-  <div class="card border border-light me-5" style="width: 70%; height:80%">
-    <img src="{{respuesta.url}}" style="max-height:70%" >
-    <div class="card-body">
-      <h5 class="card-title">{{respuesta.titulo}}</h5>
-      <p class="card-text">{{respuesta.texto}}</p>
+<div class="fondo-plast">
+  <div class="video">
+    <div class="card border border-light ms-5 col-11" style="width: 70%; height:50%">
+      <img src="{{respuesta.url}}" style="max-height:50%" >
+      <div class="fond-text">
+        <h3 class="title-des mt-3 ms-3">{{respuesta.titulo}}</h3>
+        <p class="text ms-3">{{respuesta.texto}}</p>
+        <div class="col-12 row">
+          <p class="text ms-3 col-3">{{respuesta.visita}}</p>
+          <div class="col-3"></div>
+          <div class="col-6 row">
+            <div class="col-1"></div>
+            <i class="fa fa-thumbs-up link-light text col-1" aria-hidden="true"></i>
+            <p class="text col-1">
+              like
+            </p>
+            <i class="fa fa-thumbs-down link-light col-1" aria-hidden="true"></i>
+            <p class="text col-2">
+              Dislike
+            </p>
+            <i class="fa fa-share link-light col-1" aria-hidden="true"></i>
+            <p class="text col-2">
+              Compartir
+            </p>
+            <i class="fa fa-bookmark link-light col-1" aria-hidden="true"></i>
+            <p class="text col-2">
+              Guardar
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="col-1">
+      <app-detail (resultEvent)="getRespuesta($event)" [datos]="Rep"></app-detail>
+    </div>
+
   </div>
-  <app-detail (resultEvent)="getRespuesta($event)" [datos]="Rep"></app-detail>
+
 </div>
+
 

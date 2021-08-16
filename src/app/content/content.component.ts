@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
   constructor() { }
-  respuesta:any={url:"assets/image/YouTubeLogo.png",titulo:"",texto:""}
+  respuesta:any={url:"assets/image/YouTubeLogo.png",titulo:"Youtube", visita:"12.668 visualizaciones  | 15 ago 2021", texto:"es vidio un sitio web de origen estadounidense dedicado a compartir videos. Presenta una variedad de clips de películas, programas de televisión y vídeos musicales, así como contenidos amateur como videoblogs y YouTube Gaming. Las personas que crean contenido para esta plataforma generalmente son conocidas como youtubers."}
+
   Rep:any= [
+    {url:"assets/image/YouTubeLogo.png",titulo:"Youtube", visita:"12.668 visualizaciones | 15 ago 2021", texto:"es vidio un sitio web de origen estadounidense dedicado a compartir videos. Presenta una variedad de clips de películas, programas de televisión y vídeos musicales, así como contenidos amateur como videoblogs y YouTube Gaming. Las personas que crean contenido para esta plataforma generalmente son conocidas como youtubers."},
     {url:"assets/image/YouTubeLogo.png",titulo:"Youtube",texto:"es un sitio web de origen estadounidense dedicado a compartir videos. Presenta una variedad de clips de películas, programas de televisión y vídeos musicales, así como contenidos amateur como videoblogs y YouTube Gaming. Las personas que crean contenido para esta plataforma generalmente son conocidas como youtubers."},
     {url:"assets/image/YouTubeLogo.png",titulo:"Youtube",texto:"es un sitio web de origen estadounidense dedicado a compartir videos. Presenta una variedad de clips de películas, programas de televisión y vídeos musicales, así como contenidos amateur como videoblogs y YouTube Gaming. Las personas que crean contenido para esta plataforma generalmente son conocidas como youtubers."},
     {url:"assets/image/YouTubeLogo.png",titulo:"Youtube",texto:"es un sitio web de origen estadounidense dedicado a compartir videos. Presenta una variedad de clips de películas, programas de televisión y vídeos musicales, así como contenidos amateur como videoblogs y YouTube Gaming. Las personas que crean contenido para esta plataforma generalmente son conocidas como youtubers."},
